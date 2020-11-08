@@ -1,0 +1,156 @@
+body {
+  font-family: "Spartan", sans-serif;
+}
+
+.section-description > h1 {
+  color: hsl(300, 43%, 22%);
+}
+
+.section-description {
+  width: 40%;
+}
+
+.section-description > h1 {
+  font-size: 33px;
+}
+.section-description > p {
+  color: hsl(303, 10%, 53%);
+}
+
+.first-section {
+  display: flex;
+}
+
+.section-rating {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.rating {
+  height: 40px;
+  align-items: center;
+  width: 70%;
+  padding: 0px 10px;
+  display: flex;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 5px;
+}
+
+.rating-text{
+  font-size: 12px;
+}
+.rating:not(:last-child) {
+  margin-bottom: 20px;
+}
+.rating > div:first-child {
+  margin-right: 40px;
+  width: 113px;
+}
+
+.fa-star {
+  font-size: 10px;
+  color: rgb(232, 172, 32);
+}
+.rating:nth-child(2){
+      margin-left: 50px;
+}
+.rating:last-child{
+  margin-left: 109px;
+}
+
+.second-section{
+  display: flex;
+  width:100%;
+justify-content: space-around;
+margin-top: 20px;
+}
+
+.second-section-div{
+  width:20%;
+  border: 1px solid;
+  padding: 8px;
+  font-size: 12px;
+  height: 150px;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 5px;
+}
+
+
+.status{
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.account-details{
+  display: flex;
+}
+
+.account-details>div{
+  margin-right: 20px;
+}
+.account-details>div>img{
+  border-radius : 50px;
+  width: 35px;
+}
+
+.name{
+  font-weight: bolder;
+  color: white;
+}
+.verify-status{
+  color: gray;
+}
+.account-content>p{
+  color: white;
+}
+.second-section:nth-child(2){
+margin-top: 10px;
+}
+.second-section:last-child{
+  margin-top: 20px;
+}
+#second-div{
+  margin-top: 10px;
+}
+#third-div{
+  margin-top: 20px;
+}
+
+@media all and (max-width: 830px){
+  .first-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-description{
+width: 100%;
+    text-align: center;
+}
+.section-rating{
+  width: 100%;
+}
+
+.rating{
+margin-left: 0 !important;
+    width: 89%;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.second-section{
+  flex-direction: column;
+}
+.second-section .second-section-div{
+width: 95%;
+    margin: auto;
+}
+}
